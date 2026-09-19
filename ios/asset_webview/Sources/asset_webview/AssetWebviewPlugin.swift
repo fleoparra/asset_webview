@@ -1,7 +1,7 @@
 import Flutter
 import UIKit
 
-public class SwiftAssetWebviewPlugin: NSObject, FlutterPlugin {
+public class AssetWebviewPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let factory = AssetWebviewFactory(
         messenger: registrar.messenger(),
